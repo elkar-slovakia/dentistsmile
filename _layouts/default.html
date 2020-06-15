@@ -5,15 +5,15 @@
         <p class="oldie">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> to better experience this site.</p>
     <![endif]-->
 
-    {% include header.html %}
+    {#% include header.html %}
  
-        {{ content }}
+        {#{ content }}
            
-    {% include footer.html %}
+    {#% include footer.html %}
     
-    {% if site.analytics %}
-        {% include analytics.html %}
-    {% endif %}
+    {#% if site.analytics %}
+        {#% include analytics.html %}
+    {#% endif %}
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?sensor=false&key={{ site.map.google_maps_api_token}}"></script>
